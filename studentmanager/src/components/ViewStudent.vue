@@ -14,7 +14,6 @@
             btn-large blue">
             <i class="fa fa-pencil"></i>
             </router-link>
-        </div>
     </div>
 </template>
 

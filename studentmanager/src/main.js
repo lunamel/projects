@@ -3,9 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ActivityGraph from './components/ActivityGraph/ActivityGraph.vue'
 
 Vue.config.productionTip = false
-
+Vue.component('activity-graph',ActivityGraph)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
